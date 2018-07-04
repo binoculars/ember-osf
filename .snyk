@@ -1,0 +1,41 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - ember-metrics > ember-runtime-enumerable-includes-polyfill > ember-cli-babel > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-04T02:09:27.861Z'
+    - ember-cli-shims > ember-cli-babel > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-04T02:09:27.861Z'
+    - ember-get-config > ember-cli-babel > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-04T02:09:27.861Z'
+    - ember-i18n > ember-cli-babel > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-04T02:09:27.861Z'
+    - ember-i18n > ember-getowner-polyfill > ember-cli-babel > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-04T02:09:27.861Z'
+    - ember-i18n > ember-getowner-polyfill > ember-cli-babel > broccoli-babel-transpiler > babel-core > lodash:
+        patched: '2018-07-04T02:09:27.861Z'
+    - ember-metrics > ember-cli-babel > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-04T02:09:27.861Z'
+    - ember-metrics > ember-getowner-polyfill > ember-cli-babel > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-04T02:09:27.861Z'
+    - ember-collapsible-panel > ember-cli-babel > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-04T02:09:27.861Z'
+    - ember-radio-buttons > ember-cli-babel > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-04T02:09:27.861Z'
+    - ember-sinon > ember-cli-babel > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-04T02:09:27.861Z'
+    - ember-moment > ember-cli-babel > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-04T02:09:27.861Z'
+    - ember-moment > ember-macro-helpers > ember-weakmap > ember-cli-babel > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-04T02:09:27.861Z'
+    - ember-truth-helpers > ember-cli-babel > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-04T02:09:27.861Z'
+    - ember-toastr > ember-cli-babel > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-04T02:09:27.861Z'
+    - ember-sinon-qunit > ember-sinon > ember-cli-babel > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-04T02:09:27.861Z'
+  'npm:tunnel-agent:20170305':
+    - broccoli-sass-source-maps > node-sass > request > tunnel-agent:
+        patched: '2018-07-04T02:09:27.861Z'
