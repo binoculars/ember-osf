@@ -12,6 +12,11 @@
   dependencies:
     "@glimmer/di" "^0.2.0"
 
+"@snyk/protect@^1.742.0":
+  version "1.742.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.742.0.tgz#da6d6bc4767e7ad5f2186ea3b34d1deb3af8a565"
+  integrity sha512-rjgylW0oyqogWdOXvoPrxCHDGyXBVR2gnBruUZZxaQ9zLiQK7eN04lp3aOISPRane6jxJKYRToSN29EM+eGXbg==
+
 JSONStream@^1.0.3:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/JSONStream/-/JSONStream-1.3.2.tgz#c102371b6ec3a7cf3b847ca00c20bb0fce4c6dea"
