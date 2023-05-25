@@ -1,0 +1,12 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - ember-power-select > ember-basic-dropdown > ember-cli-babel > babel-preset-env > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2023-05-25T03:10:31.017Z'
+    - ember-power-select > ember-basic-dropdown > ember-cli-babel > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2023-05-25T03:10:31.017Z'
+    - ember-power-select > ember-basic-dropdown > ember-cli-babel > babel-preset-env > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2023-05-25T03:10:31.017Z'
