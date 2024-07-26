@@ -79,7 +79,7 @@
   "dependencies": {
     "broccoli-funnel": "1.2.0",
     "broccoli-merge-trees": "2.0.0",
-    "broccoli-sass-source-maps": "2.0.0",
+    "broccoli-sass-source-maps": "4.0.0",
     "config": "1.26.1",
     "ember-ace": "^1.2.0",
     "ember-bootstrap-datepicker": "^2.0.3",
